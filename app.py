@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
 
-# LOAD DATASET
+#DATASET
 data = pd.read_csv('/content/data_cluster_netflix.csv')
 
 # Pastikan kolom penting ini tersedia
@@ -86,5 +86,6 @@ if st.button("Cari Rekomendasi"):
 # FOOTER
 st.markdown("---")
 st.caption("Dibangun dengan Streamlit | Dataset Clustering Netflix | Erlangga Wijaya 2025")
+
 
 
